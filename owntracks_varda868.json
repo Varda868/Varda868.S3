@@ -1,0 +1,60 @@
+{
+    "_type": "configuration",
+    "_build": 420509001,
+
+    "mode": 0,
+    "host": "192.168.4.1",
+    "port": 1883,
+    "tls": false,
+    "ws": false,
+
+    "clientId": "Varda868",
+    "username": "",
+    "password": "",
+    "deviceId": "GPS",
+    "tid": "gp",
+
+    "pubTopicBase": "owntracks/%u/%d",
+    "pubQos": 1,
+    "pubRetain": false,
+
+    "sub": false,
+
+    "cleanSession": true,
+    "keepalive": 60,
+    "ping": 30,
+    "connectionTimeoutSeconds": 300,
+
+    "monitoring": 1,
+    "locatorInterval": 3,
+    "locatorDisplacement": 50,
+    "moveModeLocatorInterval": 10,
+
+    "ignoreInaccurateLocations": 50,
+    "ignoreStaleLocations": 0.0,
+    "discardNetworkLocationThresholdSeconds": 30,
+    "fusedRegionDetection": true,
+
+    "extendedData": true,
+    "info": false,
+    "cmd": false,
+    "remoteConfiguration": false,
+
+    "autostartOnBoot": true,
+    "notificationLocation": true,
+    "notificationEvents": false,
+    "notificationGeocoderErrors": false,
+    "notificationHigherPriority": false,
+
+    "encryptionKey": "",
+    "opencageApiKey": "",
+    "reverseGeocodeProvider": "Device",
+    "mapLayerStyle": "GoogleMapDefault",
+    "enableMapRotation": true,
+    "showRegionsOnMap": false,
+    "osmTileScaleFactor": 1.0,
+    "pegLocatorFastestIntervalToInterval": false,
+    "debugLog": true,
+    "experimentalFeatures": [],
+    "waypoints": []
+}
